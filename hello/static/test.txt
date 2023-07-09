@@ -1,0 +1,1 @@
+"static ffiles are those files which aanybody comes to see through url // basically publically viewable files"
