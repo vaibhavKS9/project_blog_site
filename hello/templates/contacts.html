@@ -3,12 +3,8 @@
 {% block title %}Contact{% endblock title %}
 {% block contactactive %}active{% endblock contactactive %}
 {% block body %}
-<style>
-    body {
-      background-image: url('/static/images/202.jpg');
-    }
-</style> 
-<div class="container mb-3 py-4">
+
+<div class="container mb-3 my-3 py-3" style="background-color:white; border: 1px solid black; border-radius:7px;">
     <h1 class="text-center">Contact Us</h1>
     <form method="post" action="/contacts">
     {% csrf_token %}
